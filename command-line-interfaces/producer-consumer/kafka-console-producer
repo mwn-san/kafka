@@ -1,0 +1,12 @@
+A. COMMAND LINE INTERFACE FOR PRODUCE MESAGES:
+   kafka-console-producer --topic <topic_name> --bootstrap-server <host:port>
+
+B. EXAMPLE MESSAGES:
+   message-0
+   message-1
+   message-2
+   message-3
+   message-4
+
+C. COMMAND LINE INTERFACE FOR CONSUME ALL MESSAGE:
+   kafka-console-consumer --topic <topic_name> --bootstrap-server <host:port>--from-beginning

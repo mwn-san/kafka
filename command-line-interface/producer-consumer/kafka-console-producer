@@ -1,0 +1,9 @@
+// COMMAND LINE INTERFACE FOR PRODUCE MESAGES:
+kafka-console-producer --topic <topic_name> --bootstrap-server <host:port>
+
+// EXAMPLE MESSAGES:
+message-0
+message-1
+message-2
+message-3
+message-4

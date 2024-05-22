@@ -1,4 +1,6 @@
 # Calculate Message Consumption Time
+![alt text](https://github.com/mwn-san/confluent-kafka/blob/mwn/public/calculate_message_consumption_time.png?raw=true)
+![alt text](https://github.com/mwn-san/confluent-kafka/blob/mwn/public/consumer_group_message_lag.png?raw=true)
 
 This project is used to calculate the time a message has been consumed on the Confluent Control Center (C3) Consumer Groups dashboard.
 

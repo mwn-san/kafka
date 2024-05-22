@@ -1,0 +1,39 @@
+# Calculate Message Consumption Time
+
+This project is used to calculate the time a message has been consumed on the Confluent Control Center (C3) Consumer Groups dashboard.
+
+Created by Mohammad Wildan Nuryulda.
+Hopefully it's useful
+## Getting Started
+
+1. Create a Python application directory:
+   
+   ```bash
+   mkdir calculate-msg-consumption-time && calculate-msg-consumption-time
+   mkdir src && mkdir templates && mkdir static
+   
+2. Install the necessary dependencies:
+   ```bash
+   sudo apt-get install python3-venv
+   python3 -m venv venv
+   source venv/bin/activate
+   pip3 install flask
+   pip list
+
+3. Here's how to run the application:
+   ```bash
+   python3 app.py
+
+4. Alternatively, to use nohup while keeping the virtual environment active:
+   ```bash
+   touch running-apps.sh && chmod +x running-apps.sh
+   ```
+   ```bash
+   #!/bin/bash
+   source /path/to/your/project/venv/bin/activate
+   nohup sh -c '/path/to/your/project/python3 app.py > /path/to/your/project/output.log 2>&1' &
+   ```
+   ```bash
+   ./running-apps.sh
+
+   

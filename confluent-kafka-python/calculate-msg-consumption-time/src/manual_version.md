@@ -19,7 +19,7 @@ def function_calculate_time_to_consume_messages(total_messages, messages_per_int
 ```
 ```bash	
 import json
-from consumer_lag_time import calculate_time_to_consume_messages
+from function import calculate_time_to_consume_messages
 
 # Open and read configuration files
 with open('config.json', 'r') as file:

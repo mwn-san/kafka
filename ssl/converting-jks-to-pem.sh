@@ -39,3 +39,5 @@ for domain in "${domains[@]}"; do
 
     sleep 5  # Pause for 5 seconds
 done
+
+

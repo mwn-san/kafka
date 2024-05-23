@@ -47,5 +47,22 @@ Import CA ke truststore:
 ```bash
 keytool -import -file ca.pem -alias rootCA -keystore example.co.id.truststore.jks -storepass confluent
 ```
-
+Verify file (.JKS) Keystore and Truststore:
+```bash
+keytool -list -v -keystore example.co.id.truststore.jks -storepass $PASS -keypass $PASS | grep Valid
+keytool -list -v -keystore example.co.id.keystore.jks -storepass $PASS -keypass $PASS | grep Serial
+```
+Note:
+# <p align="center"> 𝗠𝗔𝗞𝗘 𝗦𝗨𝗥𝗘 𝗦𝗘𝗥𝗜𝗔𝗟 𝗢𝗡 𝗞𝗘𝗬𝗦𝗧𝗢𝗥𝗘 𝗔𝗡𝗗 𝗧𝗥𝗨𝗦𝗧𝗦𝗧𝗢𝗥𝗘 </p>
+```bash
+keytool --list -v --keystore example.co.id.keystore.jks -keypass $PASS | grep Serial
+# result :
+Serial number: 87835d2e3062f63d
+Serial number: 9d5561ff327a5036
+```
+```bash
+keytool --list -v --keystore example.co.id.truststore.jks -keypass $PASS | grep Serial
+# result
+Serial number: 9d5561ff327a5036
+```
 

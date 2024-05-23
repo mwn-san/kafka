@@ -26,7 +26,7 @@ Import Key
 ```bash
 keytool -importkeystore -destkeystore domain.com.keystore.jks -srckeystore domain.com.p12 -srcstoretype pkcs12 -alias domain.com -srcstorepass $PASS -deststorepass $PASS -destkeypass $PASS
 ```
-Verify
+Verify file (.JKS) Keystore and Truststore:
 ```bash
 keytool -list -v -keystore domain.com.truststore.jks -storepass $PASS -keypass $PASS | grep Valid
 keytool -list -v -keystore domain.com.keystore.jks -storepass $PASS -keypass $PASS | grep Serial

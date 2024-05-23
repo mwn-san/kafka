@@ -1,2 +1,0 @@
-// COMMAND LINE INTERFACE FOR CONSUME ALL MESSAGES:
-kafka-console-consumer --topic <topic_name> --bootstrap-server <host:port> --from-beginning

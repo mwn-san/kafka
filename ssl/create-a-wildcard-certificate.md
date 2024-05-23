@@ -65,5 +65,3 @@ keytool --list -v --keystore example.co.id.truststore.jks -keypass $PASS | grep 
 # result
 Serial number: 9d5561ff327a5036
 ```
-
-

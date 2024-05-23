@@ -47,3 +47,5 @@ Import CA ke truststore:
 ```bash
 keytool -import -file ca.pem -alias rootCA -keystore example.co.id.truststore.jks -storepass confluent
 ```
+
+

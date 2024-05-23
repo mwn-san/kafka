@@ -1,6 +1,6 @@
-# CONVERT JSK TO PEM
+# Converting a Java Keystore (.JKS) to (.PEM) File format
 ```
-# NOTE:
+NOTE:
   By default, the JKS key store type doesn't support exporting the Private key entry using the key tool
   Private key entry can be exported by converting the JKS to a PKCS12 key store
   Command for converting JKS to PKCS12 key store can be found in step 1 on script
@@ -10,4 +10,4 @@
           -nocerts: No certificates will be exported at all, only the private key entry
 ```
 
-Certificate checker:   https://www.sslshopper.com/certificate-key-matcher.html
+Certificate checker :   https://www.sslshopper.com/certificate-key-matcher.html

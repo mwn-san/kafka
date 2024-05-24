@@ -10,4 +10,3 @@ for connector in $(echo $connectors | jq -r '.[]'); do
 done
 
 echo "CONNECTORS HAVE BEEN RESUMED."
-

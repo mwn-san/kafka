@@ -28,3 +28,5 @@ for config_file in "$config_dir"/*.json; do
     echo "waiting for 30 seconds before processing the next file..."
     sleep 30
 done
+
+

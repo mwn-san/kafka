@@ -1,5 +1,5 @@
 {
-    "bootstrap_servers": "host:port, host:port, host:port",
+    "bootstrap_servers": "host:port,host:port,host:port",
     "topic": "topic-name",
     "group_id": "consumer-group-id",
     "auto_offset_reset": "earliest"

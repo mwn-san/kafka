@@ -23,3 +23,5 @@ from producer_function import produce_messages
 if __name__ == "__main__":
     config_file = 'config_producer.json'
     produce_messages(config_file)
+
+

@@ -1,6 +1,6 @@
 {
-    "bootstrap_servers": "confluent-east.sibernetik.co.id:9092, confluent-center.sibernetik.co.id:9092, confluent-north.sibernetik.co.id:9092",
-    "topic": "json-confluent-kafka-python",
-    "group_id": "json-confluent-kafka-python-v29",
+    "bootstrap_servers": "host:port, host:port, host:port",
+    "topic": "topic-name",
+    "group_id": "consumer-group-id",
     "auto_offset_reset": "earliest"
 }

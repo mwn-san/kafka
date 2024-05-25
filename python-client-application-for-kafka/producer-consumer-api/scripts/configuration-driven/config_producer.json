@@ -1,7 +1,7 @@
 {
     "bootstrap_servers": "host:port,host:port,host:port",
     "schema_registry_url": "http://host:port",
-    "topic": "topic_name",
+    "topic": "topic-name",
     "num_messages": 100,
     "item_ids": ["8592713", "5241987", "7364852", "9173264", "4829516", "6493728", "1738952", "8264719", "5491836", "2948571", "7381946", "6251983", "8416293", "3629847", "5194728", "7263481", "4981735", "3628491", "7152948", "9287461", "7364198", "5826134", "9148267", "2857943", "6491732", "5827491"],
     "names": ["Nadia", "Farhan", "Rina", "Dika", "Arif", "Siti", "Budi", "Maya", "Reza", "Tiara", "Adi", "Lina", "Dito", "Rini", "Fadil", "Nisa", "Ryan", "Putri", "Rizky", "Dini", "Edo", "Devi", "Yoga", "Ina", "Fajar", "Wati", "Adit", "Sari", "Agus", "Dewi", "Bayu", "Rika", "Andi", "Tika", "Irfan", "Fitri", "Dodi", "Nana", "Yogi", "Tia", "Fahmi", "Lia", "Dian", "Dani", "Rizal", "Irma", "Dodi", "Rina", "Ivan", "Citra", "Wahyu", "Ani", "Rizki", "Rini", "Hendra", "Siska", "Hadi", "Maya", "Agung", "Eka", "Febri", "Tini", "Aldi", "Dina", "Reza", "Tiwi", "Anton", "Nita", "Rudi", "Ria", "Taufik", "Selly", "Fikri", "Dita", "Angga", "Elsa", "Ricky", "Vina", "Dodi", "Indra", "Yanti", "Rian", "Putra", "Mona", "Rendy", "Ria", "Irvan", "Wulan", "Ilham", "Eka", "Arum", "Bimo", "Yuli", "Deni", "Mia"],

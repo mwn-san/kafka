@@ -69,3 +69,5 @@ def produce_messages(config_file):
         p.poll(1)
 
     p.flush()
+
+
